@@ -1,0 +1,6 @@
+{
+  "include": ["pipeline.py", "src", "tests"],
+  "extraPaths": ["."],
+  "venvPath": ".",
+  "venv": "venv"
+}

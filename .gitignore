@@ -1,0 +1,22 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Artefactos generados por el pipeline (se regeneran con: python pipeline.py)
+data/raw/*.csv
+data/processed/*.csv
+models/*.pkl
+models/*.json
+mlruns/
+mlflow.db
+logs/*.log
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
